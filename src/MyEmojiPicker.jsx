@@ -31,7 +31,7 @@ const MyEmojiPicker = ({ onEmojiClick , EmojiStyle}) => {
       <button onClick={handleShowPicker} className='button'>
         {showPicker ? 'Hide Emojis' : 'Show Emojis'}
       </button>
-      
+      <p>Click emoji to copy it </p>
       <div className="selected-emoji">
         {emoji ? (
           <span onClick={handleCopyEmoji} className='emoji'>{emoji.emoji} {EmojiStyle}</span>
