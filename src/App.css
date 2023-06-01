@@ -36,6 +36,7 @@
     background-color: #000;
     color: #fff;
     margin-top: 10px;
+    z-index: -100;
 }
 .emoji{
     background-color: #000;
@@ -130,3 +131,7 @@ footer a{
     }
 }
     
+.Spacer{
+    height: 200px;
+    width: 100%;
+}

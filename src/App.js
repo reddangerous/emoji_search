@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>Emoji Picker</h1>
       <EmojiPicker />
+      <div className='Spacer'></div>
       <Footer />
     </div>
   );
