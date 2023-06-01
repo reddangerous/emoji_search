@@ -36,7 +36,7 @@
     background-color: #000;
     color: #fff;
     margin-top: 10px;
-    z-index: -100;
+    
 }
 .emoji{
     background-color: #000;
@@ -75,6 +75,7 @@ footer{
     margin-bottom: 0px;
     border: 1px solid #4CAF50;
     bottom: 0;
+    z-index: 100;
 }
 footer a{
     color: #4CAF50;
