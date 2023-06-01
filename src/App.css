@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: auto;
 
 }
 .button{
@@ -34,6 +35,8 @@
 .EmojiPickerReact{
     background-color: #000;
     color: #fff;
+    margin-bottom: 100px;
+    margin-top: 10px;
 }
 .emoji{
     background-color: #000;
@@ -55,7 +58,7 @@
 }
 
 footer{
-    position: fixed;
+    position: end;
     width: 100%;
     height: 60px;
     background-color: #000;
@@ -68,7 +71,9 @@ footer{
     font-weight: 800;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 400px;
+    margin-bottom: 0px;
+    border: 1px solid #4CAF50;
     bottom: 0;
 }
 footer a{
