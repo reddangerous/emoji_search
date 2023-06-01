@@ -35,7 +35,6 @@
 .EmojiPickerReact{
     background-color: #000;
     color: #fff;
-    margin-bottom: 100px;
     margin-top: 10px;
 }
 .emoji{
@@ -58,7 +57,7 @@
 }
 
 footer{
-    position: end;
+    position: fixed;
     width: 100%;
     height: 60px;
     background-color: #000;
